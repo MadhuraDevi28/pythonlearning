@@ -29,3 +29,4 @@ while n > 0:
     sum+=i
 print(sum)
 
+422

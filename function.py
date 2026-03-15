@@ -2,22 +2,23 @@
 #2. get a input & check that number is divisible by 5 if yes then print "yes" or "no"
 #3. Get 2 input & iterate them & sum them both iterated
 
-
-# def get_name():
-#     name=(input("Enter a name :"))
-#     return name
-# print("your name is ",get_name())
-#
-# def divisibility(x):
-#     if x % 5 == 0:
-#         print("this number is divisible by 5")
-#     else:
-#         print("this number is not divisible by 5")
-#     return x
-# num=(int(input("enter a number:")))
-# print("Result is ",divisibility(num))
-
+name=(input("Enter a name :"))
+num = (int(input("enter a number:")))
 a,b=map(int,input("enter two numbers:").split())
+def get_name():
+    k= name
+    return k
+print("your name is ",get_name())
+
+def divisibility(x):
+    if x % 5 == 0:
+        print("this given number is divisible by 5")
+    else:
+        print("this given number is not divisible by 5")
+    return x
+divisibility(num)
+
+
 
 def summing(a,b):
     i=1
